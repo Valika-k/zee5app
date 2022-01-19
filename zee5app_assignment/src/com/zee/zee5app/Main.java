@@ -74,7 +74,7 @@ public class Main {
 		Register register7= new Register();
 		register7.setFirstname("abc");
 		register7.setLastname("xyz");
-		String result7= service1.updateUser("s003",register7);
+		String result7= service1.updateUser("ab003",register7);
 		System.out.println("\nUsers after updating\n");
 		for(Register register3 : service1.getAllUsers()) {
 			if(register3!=null)
@@ -82,7 +82,7 @@ public class Main {
 		}
 		
 		Register register4= new Register();
-		String result8= service1.deleteUser("s002");
+		String result8= service1.deleteUser("ab002");
 		System.out.println("\n"+result8);	
 		
 		}
